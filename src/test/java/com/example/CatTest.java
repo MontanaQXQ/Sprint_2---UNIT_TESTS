@@ -13,8 +13,11 @@ import static org.junit.Assert.*;
 @RunWith(MockitoJUnitRunner.class)
 public class CatTest {
 
+
+
     @Mock
     Predator predator;
+    
 
     @Test
     public void testGetSound() {
