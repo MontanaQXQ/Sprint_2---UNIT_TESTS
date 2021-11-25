@@ -8,7 +8,7 @@ public class Main {
         System.out.println(lion.getFood());
         System.out.println(lion.getKittens());
         System.out.println(cat.getFood());
-        System.out.println(lion.doesHaveMane());
+        System.out.println("Наличие гривы у льва = " + lion.doesHaveMane());
         System.out.println("кот говорит " + cat.getSound());
     }
 

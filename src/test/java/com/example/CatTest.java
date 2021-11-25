@@ -13,6 +13,9 @@ import static org.junit.Assert.*;
 @RunWith(MockitoJUnitRunner.class)
 public class CatTest {
 
+    @Mock
+    Predator predator;
+
     @Test
     public void testGetSound() {
         Cat cat = new Cat(predator);
@@ -22,8 +25,6 @@ public class CatTest {
 
     }
 
-    @Mock
-    Predator predator;
 
     @Test
     public void testGetFood() throws  Exception {
